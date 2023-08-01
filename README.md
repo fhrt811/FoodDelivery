@@ -48,7 +48,7 @@ Create a repository in github
 add, commit and push all the folders in github
 ```
 ```
-Do EDA in EDA.ipynb file in notebooks folder, load dataset and perform all the EDA functions to the dataset.
+Perform EDA in EDA.ipynb file in notebooks folder, load dataset and perform all the EDA functions to the dataset.
 ```
 ```
 Perform all the automation in a file named ModelTraining created in notebooks folder.
@@ -69,6 +69,33 @@ Create Categorical pipeline and perform the oprations needed for ordinal feature
 ```
 ```
 Now combine the Numerical Pipeline and Categorical piepline using column transformer
+```
+```
+Perform train_test_split (from sklearn.model_selection import train_test_split)
+```
+```
+convert X_train and X_test into dataframe and perform fit_transfor on X_train data
+and transform on X_test data
+and use columns=preprocessor.get_feature_names_out()
+```
+```
+Perform model training
+import LinearRegression, Ridge, Lasso, ElasticNet
+import mae, mse, r2_score from sklearn.metrics
+```
+```
+regression=LinearRegression()
+Perform fit operation on X_train and y_train (regression.fit(X_train,y_train))
+```
+```
+find regression.coeff_ and regression.intercept_
+```
+```
+Define a function 'evaluate_model'
+Train multiple models and iterate through the models and find out the results
+```
+```
+Create logging and exception handling functionality in respective file
 ```
 ```
 
