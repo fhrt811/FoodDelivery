@@ -6,7 +6,7 @@ Create a folder in pwd
 Create a README.md file
 ```
 ```
-Creat requirements.txt file
+Create requirements.txt file
 ```
 ```
 Add all the required packages in requirements.txt file as well as '-e .' also
@@ -98,5 +98,45 @@ Train multiple models and iterate through the models and find out the results
 Create logging and exception handling functionality in respective file
 ```
 ```
+Now Start Data Ingestion,
+Initialise the data ingestion configuration
+Create a class for Data Ingestion
+Return train_data_path and test_data_path
+Run the code for data ingestion using __name__=='__main__'
+for getting train_data and test_data
+```
+```
+Now start Data Transformation
+Import Libraries
+Configure Data Transformation
+Create a class for Data Transformation
+Define a function data_transformation_config = DataTransformation
+Define Data transformation object as get_data_transformation_obj
+in a try block divide the numerical features and categorical features
+Define custom rankings for Ordinal variables
+Create numerical and categorical pipeline and combining them
+return preprocessor
 
+Define another function initiate_data_transformation
+reading train and test data from train and test path
+save train and test DataFrame head in log file
+Creating and dropping the Dependent and independent features
+create input and target feature train and test df
+Transformation using preprocessor object
+Create Train_arr and Test_arr
+```
+```
+Go to utils.py file in src folder
+import libraries
+define a function save_object to save object as a pickle file
+```
+```
+Now go to data_transformation.py file and import save_object from src.utils
+call the function save_object
+```
+```
+Now go to data_ingestion.py and run data ingestion by changing train_data
+and test_data to train_data_path and test_data_path
+from src.components.data_transformation import Data_Transformation
+find "train_arr, test_arr, _" using "data_transformation.initiate_data_transformation(train_data_path, test_data_path)"
 ```

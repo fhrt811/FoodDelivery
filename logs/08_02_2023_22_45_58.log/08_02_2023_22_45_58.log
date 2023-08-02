@@ -1,0 +1,25 @@
+[2023-08-02 22:46:01,300] 23 root - INFO - Data ingestion method starts
+[2023-08-02 22:46:01,438] 26 root - INFO - Dataset read as pandas DataFrame
+[2023-08-02 22:46:02,060] 30 root - INFO - Performing Train-Test-Split
+[2023-08-02 22:46:02,601] 35 root - INFO - Data ingestion completed
+[2023-08-02 22:46:02,744] 74 root - INFO - reading train and test data completed
+[2023-08-02 22:46:02,753] 75 root - INFO - Train DataFram Head : 
+   Unnamed: 0  Delivery_person_Age  Delivery_person_Ratings Weather_conditions Road_traffic_density  Vehicle_condition Type_of_order  multiple_deliveries           City   distance  time_diff_minutes  Time_taken (min)
+0        5137                 29.0                      4.6             Stormy                  Jam                  2         Snack                  1.0  Metropolitian  13.974942                 41                24
+1       36424                 23.0                      4.8             Cloudy                  Low                  2         Snack                  1.0          Urban   4.593077                 33                13
+2       41414                 32.0                      4.7              Sunny                 High                  2        Drinks                  1.0          Urban   1.573027                  0                16
+3        8446                 25.0                      4.9             Stormy                  Jam                  1        Buffet                  0.0  Metropolitian  12.438489                 10                24
+4        8344                 38.0                      4.7              Windy               Medium                  1          Meal                  1.0  Metropolitian   4.529584                 33                34
+[2023-08-02 22:46:02,760] 76 root - INFO - Test DataFrame Head : 
+   Unnamed: 0  Delivery_person_Age  Delivery_person_Ratings Weather_conditions Road_traffic_density  Vehicle_condition Type_of_order  multiple_deliveries           City   distance  time_diff_minutes  Time_taken (min)
+0       24825                 27.0                      4.6             Cloudy                  Low                  1          Meal                  1.0          Urban   1.465665                 20                10
+1       27255                 35.0                      4.7              Sunny                  Jam                  0         Snack                  1.0  Metropolitian  10.760486                 55                29
+2       33799                 25.0                      4.6             Cloudy                  Low                  1        Buffet                  1.0  Metropolitian  16.651772                 52                23
+3       12101                 24.0                      4.6              Sunny                  Jam                  1        Buffet                  1.0  Metropolitian  16.830146                 46                21
+4       20377                 38.0                      4.9             Cloudy                  Jam                  0        Drinks                  1.0  Metropolitian   9.438163                  0                25
+[2023-08-02 22:46:02,760] 77 root - INFO - Obtaining Preprocessor object
+[2023-08-02 22:46:02,760] 26 root - INFO - Data Transformation initiated
+[2023-08-02 22:46:02,761] 38 root - INFO - Pipeline initiated
+[2023-08-02 22:46:02,761] 61 root - INFO - Pipeline completed
+[2023-08-02 22:46:02,898] 99 root - INFO - Applying preprocessing object on training and testing datasets.
+[2023-08-02 22:46:02,905] 115 root - INFO - Preprocessor pickle file saved
