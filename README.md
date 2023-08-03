@@ -140,3 +140,13 @@ and test_data to train_data_path and test_data_path
 from src.components.data_transformation import Data_Transformation
 find "train_arr, test_arr, _" using "data_transformation.initiate_data_transformation(train_data_path, test_data_path)"
 ```
+```
+Create a file model_trainer.py in src/components folder
+Configure the model trainer
+Initiate the model training
+split the dependent and independent features from train and test array
+defines different models
+define a function evaluate_model in utils
+import evaluat_model from utils and find best model name and print it
+define a function save_object for saving trained model file
+```
