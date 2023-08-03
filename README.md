@@ -149,4 +149,24 @@ defines different models
 define a function evaluate_model in utils
 import evaluat_model from utils and find best model name and print it
 define a function save_object for saving trained model file
+Now go to training_pipeline.py file and import the libraries
+copy run data from data_ingestion.py and paste to training pipeline and add model trainer
+to it and run
+```
+```
+Go to prediction_pipeline.py, where we give the input and get the output
+import libraries
+create a PredictPipeline class
+define a fnction predict
+create path for preprocessor.pkl and model.pkl
+To load object, go to utils and define a function for load object
+return pred
+create a class CustomData and initialise all the features with dtype
+Define get_data_as_dataframe and create a dictionary and change it into dataframe
+return the DataFrame df
+```
+```
+Create an app.py file
+define a route for homepage and predict page
+return the final_result=results
 ```

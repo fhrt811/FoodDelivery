@@ -1,0 +1,9 @@
+[2023-08-03 12:27:50,256] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-08-03 12:27:53,877] 187 werkzeug - INFO -  * Debugger PIN: 945-821-326
+[2023-08-03 12:27:56,468] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 12:27:56] "GET / HTTP/1.1" 200 -
+[2023-08-03 12:28:06,859] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 12:28:06] "GET /predict HTTP/1.1" 200 -
+[2023-08-03 12:28:35,926] 62 root - INFO - Dataframe created
+[2023-08-03 12:28:35,957] 34 root - INFO - final new data - <class 'pandas.core.frame.DataFrame'> and value-   Delivery_person_Age  Delivery_person_Ratings Weather_conditions Road_traffic_density  Vehicle_condition  multiple_deliveries   City  distance
+0                 39.0                      4.0             Cloudy               Medium                1.0                  1.0  Urban       5.0
+[2023-08-03 12:28:35,958] 14 root - INFO - Prediction Pipeline initiated
+[2023-08-03 12:28:36,294] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 12:28:36] "POST /predict HTTP/1.1" 200 -

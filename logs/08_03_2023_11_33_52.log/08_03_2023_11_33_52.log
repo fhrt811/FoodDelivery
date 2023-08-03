@@ -1,0 +1,4 @@
+[2023-08-03 11:33:53,380] 187 werkzeug - WARNING -  * Debugger is active!
+[2023-08-03 11:33:53,394] 187 werkzeug - INFO -  * Debugger PIN: 945-821-326
+[2023-08-03 11:34:05,688] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:34:05] "GET / HTTP/1.1" 200 -
+[2023-08-03 11:34:06,098] 187 werkzeug - INFO - 127.0.0.1 - - [03/Aug/2023 11:34:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
